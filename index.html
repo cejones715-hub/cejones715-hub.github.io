@@ -1,1 +1,276 @@
-Yo it's so and so, and this is the root of my website!"
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron Jones | Personal Home</title>
+
+```
+<style>
+    :root {
+        --navy: #17324d;
+        --blue: #2f6690;
+        --light-blue: #e8f1f7;
+        --cream: #f7f3eb;
+        --gold: #d6a84f;
+        --text: #24313d;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background-color: var(--cream);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: var(--navy);
+        color: var(--cream);
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2.5rem;
+        letter-spacing: 0.03em;
+    }
+
+    header p {
+        margin: 0.5rem 0 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+    }
+
+    nav {
+        background-color: var(--blue);
+        padding: 0.75rem;
+        text-align: center;
+    }
+
+    nav a {
+        color: var(--cream);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: var(--gold);
+        text-decoration: underline;
+    }
+
+    main {
+        width: min(90%, 900px);
+        margin: 2rem auto;
+    }
+
+    main h2 {
+        color: var(--navy);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    section {
+        background-color: #ffffff;
+        border-left: 5px solid var(--gold);
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    figure {
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    figure img {
+        max-width: 100%;
+        height: auto;
+        border: 4px solid var(--blue);
+    }
+
+    figcaption {
+        margin-top: 0.5rem;
+        font-style: italic;
+    }
+
+    section h3 {
+        color: var(--blue);
+        font-family: Georgia, "Times New Roman", serif;
+    }
+
+    ul {
+        padding-left: 1.5rem;
+    }
+
+    .course-link {
+        background-color: var(--light-blue);
+        border: 2px solid var(--blue);
+        padding: 1.25rem;
+    }
+
+    .course-link a {
+        color: var(--navy);
+        font-weight: bold;
+    }
+
+    .course-link a:hover,
+    .course-link a:focus {
+        color: var(--blue);
+    }
+
+    footer {
+        background-color: var(--navy);
+        color: var(--cream);
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0.4rem 0;
+    }
+
+    footer a {
+        color: var(--gold);
+    }
+
+    footer a:hover,
+    footer a:focus {
+        color: var(--cream);
+    }
+
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 2rem;
+        }
+
+        main {
+            width: 94%;
+        }
+
+        section {
+            padding: 1rem;
+        }
+    }
+</style>
+
+<link rel="icon" href="itis3135/images/Cameron_Jones.jpg">
+
+<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+```
+
+</head>
+
+<body>
+    <header>
+        <h1>Cameron Jones</h1>
+        <p>Computer Science Student • Creator • Lifelong Learner</p>
+    </header>
+
+```
+<nav aria-label="Personal navigation">
+    <a href="#about">About Me</a>
+</nav>
+
+<main>
+    <h2>Welcome to My Personal Home Page</h2>
+
+    <section id="about">
+        <figure>
+            <img src="itis3135/images/Cameron_Jones.jpg"
+                 alt="Portrait of Cameron Jones"
+                 width="400"
+                 height="400">
+            <figcaption>
+                A little bit about me and what I am working toward.
+            </figcaption>
+        </figure>
+
+        <h3>About Me</h3>
+
+        <p>
+            My name is Cameron Jones, and I am a Computer Science student
+            at the University of North Carolina at Charlotte. I enjoy
+            learning about technology, software development, and the ways
+            computers can be used to solve real-world problems.
+        </p>
+
+        <p>
+            Outside of academics, I enjoy music, staying active, and being
+            involved in different communities. I have experience performing
+            in marching bands and participating in Ultimate Frisbee, and I
+            enjoy working with other people toward a shared goal.
+        </p>
+
+        <p>
+            My goal is to continue developing my technical and professional
+            skills while building projects that give me practical experience
+            in computer science and software development.
+        </p>
+    </section>
+
+    <section>
+        <h3>What I Am Interested In</h3>
+
+        <ul>
+            <li>Software development</li>
+            <li>Web development</li>
+            <li>Computer networking</li>
+            <li>Cybersecurity</li>
+            <li>Problem solving</li>
+            <li>Music and performance</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>My Education</h3>
+
+        <p>
+            I am currently studying Computer Science at UNC Charlotte.
+            My education has given me opportunities to work with
+            programming, databases, networking, software engineering,
+            and web technologies.
+        </p>
+    </section>
+
+    <section class="course-link">
+        <h3>Course Website</h3>
+
+        <p>
+            For my coursework and web-development projects, visit my
+            <a href="itis3135/">ITIS3135 course site</a>.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>
+        &copy; 2026 Cameron Jones
+    </p>
+
+    <p>
+        <a href="https://webpages.charlotte.edu/">Charlotte Webspace</a>
+        |
+        <a href="https://github.com/cejones715-hub">GitHub</a>
+    </p>
+
+    <p>
+        <a href="https://validator.w3.org/">HTML Validator</a>
+        |
+        <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+    </p>
+</footer>
+
+<script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>
+```
+
+</body>
+</html>
